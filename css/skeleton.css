@@ -28,10 +28,14 @@
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Seem this class name has become a mainstream for a page's root container
+*/
 .container {
   position: relative;
   width: 100%;
   max-width: 960px;
+  /* center aligned using margin*/
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
